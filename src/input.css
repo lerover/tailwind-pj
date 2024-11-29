@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ruda:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *{
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+    }
+}
+
+@layer components {
+    .heading{
+        @apply text-5xl font-bold text-indigo-500
+    }
+    .heading-line{
+        @apply bg-indigo-500 w-12 py-px
+    }
+}
